@@ -13,7 +13,7 @@ This project explores uncertainty quantification (UQ) methods for renewable ener
 
 The core question: **How much extra capacity and cost does data uncertainty impose on mini-grid design in data-sparse environments?**
 
-The analysis is implemented as a single Jupyter notebook that walks through the full UQ pipeline, from raw data acquisition to policy-relevant sizing recommendations.
+The analysis is implemented as a Jupyter notebook (`SL_UQ_Analysis_V2_RealData.ipynb`) that walks through the full UQ pipeline, from raw data acquisition to policy-relevant sizing recommendations.
 
 ---
 
@@ -65,27 +65,13 @@ All data is publicly available:
 - Python 3.9+
 - Jupyter Notebook or JupyterLab
 
-### Required packages
-```
-numpy scipy pandas matplotlib seaborn plotly
-pvlib SALib scikit-learn statsmodels arviz h5py
-```
-
-Install all dependencies:
-```bash
-pip install numpy scipy pandas matplotlib seaborn plotly pvlib SALib scikit-learn statsmodels arviz h5py
-```
+Dependencies are managed via `requirements.txt`.
 
 ---
 
 ## How to Run
 
-1. Clone or download this repository
-2. Install the required packages (see above)
-3. Open `SL_U2Q_REM_Analysis_V4_Clean.ipynb` in Jupyter
-4. Run all cells sequentially (the notebook will attempt to download data from NASA POWER; if the API is unavailable, it falls back to synthetic data)
-
-**Note:** The full notebook takes approximately 15–30 minutes to execute due to Monte Carlo simulations and MCMC sampling.
+Please see the [HOW_TO_RUN.md](HOW_TO_RUN.md) file for a complete, step-by-step guide on setting up your environment, installing dependencies, and executing the `SL_UQ_Analysis_V2_RealData.ipynb` notebook.
 
 ---
 
