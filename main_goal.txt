@@ -1,0 +1,13 @@
+I am originally from Sierra Leone, where we are richly endowed with solar and hydro resources, 
+yet power supply remains unreliable and a large portion of the population still lacks access to electricity. 
+With ongoing developments such as the Nant Power project and emerging renewable initiatives like the Bonthe wind project, 
+the system is evolving into a mix of thermal and renewable generation. However, uncertainty in both generation and demand, 
+along with limited and often poorly coordinated reserves, continues to affect system reliability. 
+This made me think about how combining data-driven uncertainty modeling with correlation-aware reserve 
+planning could improve both system analysis and operational decision-making in such environments.
+
+I am planning to pursue a PhD focused on developing models for uncertainty quantification and 
+optimization in emerging power systems, and I would appreciate the opportunity to explore potential research alignment with you.
+
+
+The main goal: 
